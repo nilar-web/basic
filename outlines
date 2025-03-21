@@ -1,0 +1,54 @@
+- JavaScript
+    - output
+        - console [checking / tracking]
+        - alert
+        - browser / page
+    - variables
+    - naming conventions
+    - data types
+        - string [username, courseName, ....]
+        - number [ age, salary, numbersOfHours]
+        - boolean [true, false ]
+        - arrays
+        - objects
+    - operators
+        - arithmetic operators => +, -, *, /, %
+        - assignment operators => +=, -=, *=, /=, %=
+        - relational operators / comparism optrs => >, >=, <, <=, ==, ===, !=
+        - logical operators => &&, ||, !
+        - increment / decrement operators => ++, --
+        - ternary operator => ? :
+        - nullish coalescing => ??
+      - control structures
+    - sequence
+    - selection / conditionals
+        - if / switch
+    - repetition / loopings
+        - for, while, do..while
+    - functions
+    - arrays
+    - objects
+    - conditionals
+    - loopings
+
+    
+- strongly-typed language => C++, Java
+   number age = 23; 
+   string studentName = "Mg Mg";  //syntax error
+   boolean isCompleted = false;
+- loosely-typed langauge => JavaScript, Python, PHP
+let age = 23; // number
+typeof age; // number
+.....
+age = "twenty three"; // string
+...
+age = false; // boolean
+
+
+car {id, brand, model}
+profile {id, name, isActive}
+post {id, title, content}
+weather {id, temperature, humidity, condition, windspeed, city}
+feedback {id, rating, comment, date}
+hotelRoom {id, type, pricePerNight, isAvailable, amenities};
+productCategory {id, name, description}
