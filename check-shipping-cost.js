@@ -3,11 +3,11 @@
 // They are a premium member
 // else, shipping charges will apply
 
-let cartValue = 40;
+let cartValue = 60;
 let memberType = "premium";
 
 if (cartValue >= 50 && memberType === "premium") {
     console.log("quilify for free shipping . . .");
 } else {
-    console.log("shipping charges apply.");
+    console.log("shipping charge apply.");
 }

@@ -1,8 +1,8 @@
-roomType = "single" => price = $50 per night;
-double => 80
-suite => 150
-deluxe => 200
-Else => "invalid room type"
+// roomType = "single" => price = $50 per night;
+// double => 80
+// suite => 150
+// deluxe => 200
+// Else => "invalid room type"
 
 let RoomType = "single";
 let price = "";
