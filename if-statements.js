@@ -11,29 +11,29 @@
 //     console.log("odd");
 // }
 
-let num = 13;
+// let num = 13;
 
-if (num > 0) {
-    console.log("positive");
-}else if (num < 0) {
-    console.log("negative");
-} else {
-    console.log("zero");
-}
+// if (num > 0) {
+//     console.log("positive");
+// }else if (num < 0) {
+//     console.log("negative");
+// } else {
+//     console.log("zero");
+// }
 
 //traffic light  signal
 //red => stop , yellow => slow down, green => go
 
-let trafficLightColor = "red";
+let trafficLightColor = "yellow";
 let signal = "";
 
-if (trafficLightColor === "yellow") {
+if (trafficLightColor === "red") {
     signal = "Stop!";
-} else if (condition) {
-    signal = "Slow Down";
+} else if (trafficLightColor === "yellow") {
+    signal = "Slow Down!";
 
 } else {
-    signal = "go";
+    signal = "Go!";
 }
 console.log(signal);
 
